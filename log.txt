@@ -1,0 +1,19 @@
+Before All
+Before Each
+Test 1 Private Check calc.setNumA
+After Each
+Тест успешно пройден
+Before Each
+Test 2 Default Check calc.setSign
+After Each
+Тест успешно пройден
+Before Each
+Test 3 Public Check calc.setNumB
+After Each
+Тест успешно пройден
+Before Each
+Test 4 Protected Check calc.getResult
+After Each
+Тест успешно пройден
+After All
+Результат тестирования положительный
