@@ -20,9 +20,7 @@ public class Calc {
     public boolean setNumB(String s_num_b){
         try {
             this.num_b = Float.parseFloat(s_num_b);
-            if (!(operator.equals("/") && num_b == 0)){
-                return true;
-            } else return false;
+            return !(operator.equals("/") && num_b == 0);
         } catch (Exception ignore){
             return false;
         }

@@ -8,12 +8,12 @@ import java.nio.charset.StandardCharsets;
 
 public class ClassToTest {
     private FileOutputStream fos;
-    private Asserter asserter = new Asserter();;
+    private final Asserter asserter = new Asserter();
     private final Calc calc = new Calc();
-    private String num_a;
-    private String num_b;
-    private String operator;
-    private double result;
+    private final String num_a;
+    private final String num_b;
+    private final String operator;
+    private final double result;
     private final StringBuilder message = new StringBuilder();
     private boolean testResult = false;
     private boolean testResultGeneral = false;
